@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1103px){
+    .amin-main-flex-page1{
+        display: block;
+        margin: 0 auto;
+    }
+    .amin-page1-flex1{
+        margin: 40px auto;
+        width: 100%;
+    }
+    .amin-page1-flex2{
+        margin: 40px auto;
+        width: 100%;
+    }
+    .amin-main-grid-page2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 660px){
+    .amin-main-grid-page2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
