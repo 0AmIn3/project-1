@@ -1,317 +1,47 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto'
-}
-
-.conteiner {
-    max-width: 1440px;
-    height: fit-content;
-    margin: 0 auto;
-}
-
-.amin-page1-logo1 {
-    text-align: center;
-    width: 100%;
-    height: 153px;
-    margin: 0 auto;
-}
-
-.amin-page1-logo1 h1 {
-    font-size: 43px;
-    font-weight: 400;
-    line-height: 58px;
-}
-
-.amin-page1-logo1 p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 23px;
-    color: #A0A0A0;
-}
-
-.amin-link {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    margin-top: 26px;
-
-}
-
-.amin-link a {
-    text-decoration: none;
-    color: #1F1F1F;
 }
 
 
-.amin-main-flex-page1 {
-    width: 100%;
+
+.w1 {
+    color: black;
+    font-size: 30px;
+    /* align-items: center; */
     display: flex;
-    height: fit-content;
-    padding: 0 50px;
-    margin: 80px auto;
-}
-
-.amin-page1-flex1 {
-    width: 50%;
-    height: 570px;
-    margin-right: 25px;
-}
-
-.amin-page1-img1 {
-    width: 100%;
-    height: 75%;
-    background-image: url(./img/Rectangleamin-page1-img-1.svg);
-    background-position: center;
-    background-size: cover;
-}
-
-.amin-page1-text1 {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-}
-
-.amin-page1-text1 h4 {
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 48px;
-
-}
-
-.amin-page1-text1 p {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    margin-top: 23px;
-}
-
-.amin-page1-text1 p a {
-    text-decoration: none;
-    color: #1F1F1F;
-}
-
-
-
-.amin-page1-flex2 {
-    width: 45%;
-    height: 570px;
-    margin-right: 25px;
-}
-
-.amin-page1-img2 {
-    width: 100%;
-    height: 75%;
-    background-image: url(./img/Rectangleamin-page1-img-2.svg);
-    background-position: center;
-    background-size: cover;
-}
-
-.amin-page1-text2 {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-}
-
-.amin-page1-text2 h4 {
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 48px;
-
-}
-
-.amin-page1-text2 p {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    margin-top: 23px;
-}
-
-.amin-page1-text2 p a {
-    text-decoration: none;
-    color: #1F1F1F;
-}
-
-
-
-
-/* {{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}} */
-
-.amin-page1-logo2 {
-    text-align: center;
-    width: 100%;
-    height: 153px;
-    margin-top: 130px;
-}
-
-.amin-page1-logo2 h1 {
-    font-size: 33px;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-.amin-page1-logo2 p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 18px;
-    margin-top: 16px;
-    color: #A0A0A0;
-}
-
-.amin-tochka-main {
-    display: flex;
-    margin-top: 52px;
     justify-content: center;
+
 }
 
-.amin-tochka {
-    width: 7px;
-    height: 7px;
-    background-color: black;
+.w2 {
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
 }
 
-.amin-tochka1 {
-    width: 7px;
-    height: 7px;
-    background-color: black;
-    margin: 0 16px;
-}
-
-
-
-/* {{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}} */
-
-
-
-.amin-main-grid-page2 {
-    width: 100%;
+.img {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 493px;
-    grid-gap: 25px;
-    margin: 24px auto;
-    padding: 0 63px;
-}
-
-/* .amin-grid-page2 {
-} */
-
-.amin-grid-page2:nth-child(1) .amin-page2-img1 {
-    background-image: url(./img/Rectangleamin-page2-img-1.svg);
-    background-position: center;
-    background-size: cover;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     width: 100%;
-    height: 85%;
-}
-
-.amin-grid-page2:nth-child(1) .amin-page2-text1 {
-    margin-top: 23px;
-}
-
-.amin-grid-page2:nth-child(1) .amin-page2-text1 h4 {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(1) .amin-page2-text1 p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(2) .amin-page2-img2 {
-    background-image: url(./img/Rectangleamin-page2-img-2.svg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 85%;
-}
-
-.amin-grid-page2:nth-child(2) .amin-page2-text2 {
-    margin-top: 23px;
-
-}
-
-.amin-grid-page2:nth-child(2) .amin-page2-text2 h4 {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(2) .amin-page2-text2 p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(3) .amin-page2-img3 {
-    background-image: url(./img/Rectangleamin-page2-img-3.svg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 85%;
-}
-
-.amin-grid-page2:nth-child(3) .amin-page2-text3 {
-    margin-top: 23px;
-
-}
-
-.amin-grid-page2:nth-child(3) .amin-page2-text3 h4 {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(3) .amin-page2-text3 p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(4) .amin-page2-img4 {
-    background-image: url(./img/Rectangleamin-page2-img-4.svg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 85%;
-}
-
-.amin-grid-page2:nth-child(4) .amin-page2-text4 {
-    margin-top: 23px;
-
-}
-
-.amin-grid-page2:nth-child(4) .amin-page2-text4 h4 {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-.amin-grid-page2:nth-child(4) .amin-page2-text4 p {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #C3C3C3;
-}
-
-
-.amin-page1-main-box{
+    height: 100vh;
     margin: 0 auto;
-}
-.amin-page2-main-box{
-    margin: 0 auto;
+    background-color: white;
+    gap: 16px;
 }
 
+.block {
+    background-color: black;
+    width: 200px;
+    height: 250px;
+}
+.bla{
+    width: 200px;
+    height: 250px;
+}
